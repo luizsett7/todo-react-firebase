@@ -5,7 +5,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla', sans-serif;  
+}
+
+#root{
+  max-width: 100% !important;
+  padding: 0;
 }
 
 button:focus {
