@@ -1,6 +1,15 @@
+import React from 'react'
 import './App.css'
 
-function App() {
+type Note = {
+  id: string
+  body: string
+  createdAt: string
+  updatedAt: string
 }
 
-export default App
+export default function App() {
+  const [notes, setNotes] = React.useState<Note[]>([])
+}
+
+
